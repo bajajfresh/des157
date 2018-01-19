@@ -87,6 +87,10 @@ body, section, footer {
 		padding-right: 20%;
   	}
 
+	#topic {
+		text-align: center;
+	}
+
 ul, ol {
 	margin-top: 10%;
 	padding-left: 10%;
