@@ -87,9 +87,18 @@ body, section, footer {
 		padding-right: 20%;
   	}
 
-	#topic {
-		text-align: center;
-	}
+p {
+	width: 750px;
+  text-align: left;
+	margin-top: 5%;
+	margin-left: 10%;
+}
+
+img {
+float: left;
+margin-left: 10%;
+margin-top: 3%;
+}
 
 ul, ol {
 	margin-top: 10%;
@@ -99,6 +108,7 @@ ul, ol {
 footer {
 	clear: both;
   padding-top: 10%;
+	margin-right: 10%;
 	}
 
 a, footer {
