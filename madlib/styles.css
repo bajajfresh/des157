@@ -5,10 +5,7 @@
 
 /* start all css with a reset */
 
-* {
-    margin: 0px;
-    padding: 0px
-}
+
 
 body {
     width: 800px;
