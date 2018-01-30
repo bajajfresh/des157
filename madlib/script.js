@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         } else {
 
             //message
-            myMsg.innerHTML = "Hey "+fanbase+"-ers! It’s "+youtuber+" here and welcome back to my channel! \nI'm so "+feeling+"! Today, I’m going to be doing an unboxing of the BRAND NEW "+product+". \nOkay, now that I opened this box. Can we just look at this packaging?? I mean seriously, it is just so "+describe+". I hope you guys could "+sense+" this better. Anyway, I love the way that it "+verb+". I wish it were a little more "+quality+" because honestly, I could deal without all the  "+descript+". \nThank you guys for watching! \nI’ll leave all the links in the description box below! Don’t forget to  "+action+", like, and subscribe!! See you guys next time when I'll teach you how to "+teach+" a "+thing+".\n Bye!";
+            myMsg.innerHTML = "Hey "+fanbase+"-ers! It’s "+youtuber+" here and welcome back to my channel! <br><br>I'm so "+feeling+"! Today, I’m going to be doing an unboxing of the BRAND NEW "+product+". <br><br>Okay, now that I opened this box. Can we just look at this packaging?? I mean seriously, it is just so "+describe+". I hope you guys could "+sense+" this better. Anyway, I love the way that it "+verb+". I wish it were a little more "+quality+" because honestly, I could deal without all the  "+descript+". <br><br>Thank you guys for watching! <br><br>I’ll leave all the links in the description box below! Don’t forget to  "+action+", like, and subscribe!! See you guys next time when I'll teach you how to "+teach+" a "+thing+".<br><br> Bye!";
 
             myMsg.className = "show";
             myGif.className = "hide";
