@@ -45,6 +45,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     //clear form
     function clearForm() {
         myMsg.className = "hide";
+        myGif.className = "show";
     }
 
 
