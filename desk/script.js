@@ -3,20 +3,19 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log('reading script');
 
-    //capture images into variables
+    //put images as variables
     var juice = document.getElementById('juice');
     var perfume = document.getElementById('perfume');
     var wallet = document.getElementById('wallet');
     var phone = document.getElementById('phone');
 
-    //capture closing variables
     var x1 = document.getElementById('x1');
     var x2 = document.getElementById('x2');
     var x3 = document.getElementById('x3');
     var x4 = document.getElementById('x4');
 
 
-    //juice hover event listener
+    //juice hover
     juice.addEventListener('mouseover', function() {
         juice.style.opacity = 1;
         juice.src = 'images/juice.png';
@@ -38,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     //---------
-    //perfume hover event listener
+    //perfume hover
     perfume.addEventListener('mouseover', function() {
         perfume.style.opacity = 1;
         perfume.src = 'images/perfume.png';
@@ -60,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     //---------
-    //wallet hover event listener
+    //wallet hover
     wallet.addEventListener('mouseover', function() {
         wallet.style.opacity = 1;
         wallet.src = 'images/wallet.png';
@@ -83,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     //---------
-    //phone hover event listener
+    //phone hover
     phone.addEventListener('mouseover', function() {
         phone.style.opacity = 1;
         phone.src = 'images/phone.png';
