@@ -10,10 +10,10 @@ document.addEventListener('DOMContentLoaded', function() {
     var phone = document.getElementById('phone');
 
     //capture closing variables
-    var close1 = document.getElementById('close1');
-    var close2 = document.getElementById('close2');
-    var close3 = document.getElementById('close3');
-    var close4 = document.getElementById('close4');
+    var x1 = document.getElementById('x1');
+    var x2 = document.getElementById('x2');
+    var x3 = document.getElementById('x3');
+    var x4 = document.getElementById('x4');
 
 
     //juice hover event listener
@@ -31,8 +31,8 @@ document.addEventListener('DOMContentLoaded', function() {
     juice.addEventListener('click', function() {
         juiceMsg.style.opacity = 1;
     });
-    //close Msg
-    close1.addEventListener('click', function() {
+    //x Msg
+    x1.addEventListener('click', function() {
         juiceMsg.style.opacity = 0;
     });
 
@@ -52,8 +52,8 @@ document.addEventListener('DOMContentLoaded', function() {
     perfume.addEventListener('click', function() {
         perfumeMsg.style.opacity = 1;
     });
-    //close Msg
-    close2.addEventListener('click', function() {
+    //x Msg
+    x2.addEventListener('click', function() {
         perfumeMsg.style.opacity = 0;
     });
 
@@ -74,8 +74,8 @@ document.addEventListener('DOMContentLoaded', function() {
     wallet.addEventListener('click', function() {
         walletMsg.style.opacity = 1;
     });
-    //close Msg
-    close3.addEventListener('click', function() {
+    //x Msg
+    x3.addEventListener('click', function() {
         walletMsg.style.opacity = 0;
     });
 
@@ -97,8 +97,8 @@ document.addEventListener('DOMContentLoaded', function() {
     phone.addEventListener('click', function() {
         phoneMsg.style.opacity = 1;
     });
-    //close Msg
-    close4.addEventListener('click', function() {
+    //x Msg
+    x4.addEventListener('click', function() {
         phoneMsg.style.opacity = 0;
     });
 
