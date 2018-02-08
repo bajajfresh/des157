@@ -1,0 +1,239 @@
+/*Stylizing content of page*/
+
+body {
+    width: 100%;
+    display: block;
+    margin: 10px;
+    background-color: #e0e1e1;
+    font-family: sans-serif;
+}
+
+div {
+    padding: 5px;
+    margin: auto;
+}
+
+div p {
+    background-color: #383838;
+    border-radius: 3px;
+    opacity: .6;
+    color: #ffffff;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+.closing{
+  text-align: right;
+}
+
+
+/*Align my images to the center*/
+
+#images {
+    position: relative;
+    width: 800px;
+    align-items: center;
+    margin: auto;
+}
+
+#images img {
+    position: absolute;
+}
+
+
+
+#desk {
+    margin: auto;
+    width: 800px;
+    top: 3px;
+}
+
+
+#juice {
+    width: 65px;
+    left: 76%;
+    display: block;
+    opacity: 0;
+    top: 100px;
+}
+
+#perfume {
+    width: 74px;
+    left: 25.15%;
+    top: 387px;
+    display: block;
+    opacity: 0;
+}
+
+#wallet {
+    width: 108px;
+    left: 5.05%;
+    top: 191px;
+    display: block;
+    opacity: 0;
+}
+
+#phone {
+    width: 84px;
+    left: 32.5%;
+    top: 248px;
+    display: block;
+    opacity: 0;
+}
+
+
+/* Mobile screen placement of text */
+
+@media screen and (max-width: 768px) {
+
+    /* juice text position */
+    #juiceMsg {
+        position: absolute;
+        top: 15%;
+        opacity: 0;
+        width: 40%;
+        left: 52%;
+        border-radius: 15px;
+
+    }
+    /* perfume text position */
+    #perfumeMsg {
+      position: absolute;
+      top: 15%;
+      opacity: 0;
+      width: 40%;
+      left: 53%;
+      border-radius: 15px;
+
+    }
+    /* wallet text position */
+    #walletMsg {
+      position: absolute;
+      top: 15%;
+      opacity: 0;
+      width: 40%;
+      left: 54%;
+      border-radius: 15px;
+
+    }
+    /* phone text position */
+    #phoneMsg {
+      position: absolute;
+      top: 15%;
+      opacity: 0;
+      width: 40%;
+      left: 55%;
+      border-radius: 15px;
+
+
+    }
+}
+
+/* Ipad size screen placement of text */
+@media screen and (min-width: 768px) {
+
+    /* juice text position */
+    #juiceMsg {
+        position: absolute;
+        top: 100px;
+        opacity: 0;
+        left: 40%;
+        width: 15%;
+        border-radius: 15px;
+
+    }
+    /* perfume text position */
+    #perfumeMsg {
+        position: absolute;
+        top: 100px;
+        opacity: 0;
+        width: 15%;
+        left: 41%;
+        border-radius: 15px;
+
+    }
+    /* wallet text position */
+    #walletMsg {
+        position: absolute;
+        top: 100px;
+        left: 42%;
+        opacity: 0;
+        width: 15%;
+        border-radius: 15px;
+
+    }
+    /* phone text position */
+    #phoneMsg {
+        position: absolute;
+        top: 100px;
+        left: 43%;
+        opacity: 0;
+        width: 15%;
+        border-radius: 15px;
+
+    }
+}
+
+  /* Desktop size with a bit of rearrangement */
+@media screen and (min-width: 1024px) {
+
+  /* juice text position */
+  #juiceMsg {
+      position: absolute;
+      top: 20%;
+      opacity: 0;
+      left: 40%;
+      width: 15%;
+      border-radius: 15px;
+  }
+  /* perfume text position */
+  #perfumeMsg {
+      position: absolute;
+      top: 20%;
+      opacity: 0;
+      width: 15%;
+      left: 41%;
+      border-radius: 15px;
+
+
+  }
+  /* wallet text position */
+  #walletMsg {
+      position: absolute;
+      top: 20%;
+      left: 42%;
+      opacity: 0;
+      width: 15%;
+      border-radius: 15px;
+
+  }
+  /* phone text position */
+  #phoneMsg {
+      position: absolute;
+      top: 20%;
+      left: 43%;
+      opacity: 0;
+      width: 15%;
+      border-radius: 15px;
+
+  }
+}
