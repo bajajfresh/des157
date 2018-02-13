@@ -113,7 +113,7 @@ footer {
 	}
 
 a, footer {
-	text-align: right;
+	text-align: center;
 }
 
 h1{
@@ -125,6 +125,7 @@ h1{
 #icondown{
  text-align: center;
  padding-bottom: 50%;
+ margin-top: 5%;
 }
 
 #iconup{
