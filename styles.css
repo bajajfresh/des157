@@ -95,9 +95,10 @@ p {
 }
 
 img {
-float: left;
+float: clear;
 margin-left: 10%;
 margin-top: 3%;
+display: block;
 }
 
 ul, ol {
@@ -145,6 +146,11 @@ h3 {
 	font-weight: bold;
 }
 
+h4{
+	float: left;
+	margin-left: 10%;
+	margin-top: 20px;
+}
 a:link {
 	text-decoration: none;
 	color: #000000;
