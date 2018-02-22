@@ -27,7 +27,7 @@ function draw() {
 
     if(typeof song != "undefined"
        && song.isLoaded()
-       && !song.isPlaying()) { // Do once
+       && !song.isPlaying()) { //play
         loader.classList.remove("loading");
 
         song.play();
