@@ -1,0 +1,194 @@
+
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+*/
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*/
+/****************** End CSS RESET *****************/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+/*body {
+	margin: auto;
+	font-family: 'Raleway';
+	color: #000000;
+overflow-x: hidden !important;
+text-align: center;
+	}
+
+h1{
+	text-align: center;
+	font-family: 'Abril Fatface';
+	text-transform: lowercase;
+	color: black;
+	font-size: 35pt;
+	padding: 10px;
+	margin-top: 20px;
+
+}
+
+	nav{
+
+		background-color: #C0C0C0;
+		padding:10px;
+
+	}
+
+	nav li {
+		display: inline;
+		font-size: 24pt;
+		margin-left:20px;
+
+
+text-align: right !important;
+font-family: 'Raleway';
+	padding: 8px;
+	}
+
+	nav a{
+
+		text-decoration: none;
+			text-align: center !important;
+			margin-left: 20px;
+			color:white;
+
+	}
+
+section{
+		width:100%;
+		height:300px;
+		text-align: center;
+		margin: auto;
+		background-size: cover;
+		background-image: url("hu.jpeg");
+
+	}
+*/
+
+body {
+	margin: auto;
+	font-family: 'Raleway';
+	color: #000000;
+text-align: center;
+	}
+
+h1{
+	text-align: center;
+	font-family: 'Abril Fatface';
+	text-transform: lowercase;
+	color: black;
+	font-size: 35pt;
+	padding: 10px;
+	margin-top: 20px;
+
+
+
+}
+a{
+text-decoration: none;
+}
+	nav{
+
+		background-color: white;
+
+margin-top: -50px;
+	}
+
+	nav li {
+		display: inline-block;
+		font-size: 24pt;
+		margin-left:20px;
+		margin-top: 10px;
+font-family: 'Raleway';
+text-transform: lowercase;
+	}
+
+	nav a{
+		text-decoration: none;
+			text-align: center !important;
+			color:black;
+	padding-top: 20px;
+	}
+
+
+nav a:hover{
+	color: darkgrey;
+	text-align: center;
+}
+
+
+
+
+footer a{
+	text-decoration: none;
+	color:orange;
+}
+
+
+
+footer a:hover{
+	color: black;
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+}
+
+ .w3-display-left{
+	 display: block;
+	margin-top: -220px;
+	color: white;
+
+
+}
+
+.w3-display-right{
+	display: block;
+ margin-left: 1250px;
+ margin-top: -30px;
+ color: white;
+
+}

@@ -1,0 +1,322 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Interactive Wireframe</title>
+		<link rel="stylesheet" href="styles.css">
+
+	</head>
+
+	<body>
+
+		<style>
+		@import url('https://fonts.googleapis.com/css?family=Raleway');
+		@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+
+
+		.a{
+				background-image: url('roulade.jpg');
+				background-size: contain;
+				width:200px;
+				height: 200px;
+				margin-left: 190px;
+				margin-top:20px;
+				text-align: center;
+				float:left;
+				color:white;
+				}
+
+		.a a {
+			visibility: visible;
+			display: inline-block;
+			background-color: darkgrey;
+			width:200px;
+			font-size: 16pt;
+			padding: 5px 0px 10px 0px;
+			text-decoration: none;
+			color: white;
+
+		}
+
+		.a p{
+			visibility: hidden;
+		}
+
+				.a:hover p{
+					visibility: visible;
+					background-color: white;
+					width:200px;
+					font-size: 10pt;
+					margin-top: 100px;
+					padding: 5px 0px 12px 0px;
+					text-decoration: none;
+					color: black;
+				}
+
+
+		.b{
+				background-image: url('tacos.jpg');
+				background-size: contain;
+				width:200px;
+				height: 200px;
+				margin-left: 190px;
+				margin-top:20px;
+				text-align: center;
+				float:left;
+				color:white;
+				}
+
+
+				.b a {
+					visibility: visible;
+					display: inline-block;
+					background-color: darkgrey;
+					width:200px;
+					font-size: 16pt;
+					padding: 5px 0px 10px 0px;
+					text-decoration: none;
+					color: white;
+
+				}
+
+				.b p{
+					visibility: hidden;
+				}
+
+						.b:hover p{
+							visibility: visible;
+							background-color: white;
+							width:200px;
+							font-size: 10pt;
+							margin-top: 90px;
+							padding: 5px 0px 12px 0px;
+							text-decoration: none;
+							color: black;
+						}
+
+		.c{
+				background-image: url('ravioli.jpg');
+				background-size: contain;
+				width:200px;
+				height: 200px;
+				margin-left: 190px;
+				margin-top:20px;
+				text-align: center;
+				float:left;
+				color:white;
+			}
+
+			.c a {
+				visibility: visible;
+				display: inline-block;
+				background-color: darkgrey;
+				width:200px;
+				font-size: 16pt;
+				padding: 5px 0px 10px 0px;
+				text-decoration: none;
+				color: white;
+
+			}
+
+			.c p{
+				visibility: hidden;
+			}
+					.c:hover p{
+						visibility: visible;
+						background-color: white;
+						width:200px;
+						font-size: 10pt;
+						margin-top: 90px;
+						padding: 5px 0px 12px 0px;
+						text-decoration: none;
+						color: black;
+					}
+
+		.d{
+				background-image: url('butterchicken.jpg');
+				background-size: cover;
+				background-repeat: no-repeat;
+				width:200px;
+				height: 200px;
+				margin-left: 190px;
+				margin-top:20px;
+				text-align: center;
+				float:left;
+				color:white;
+				}
+
+				.d a {
+					visibility: visible;
+					display: inline-block;
+					background-color: darkgrey;
+					width:200px;
+					font-size: 16pt;
+					padding: 5px 0px 10px 0px;
+
+					text-decoration: none;
+					color: white;
+
+				}
+
+				.d p{
+					visibility: hidden;
+				}
+
+						.d:hover p{
+							visibility: visible;
+							background-color: white;
+							width:200px;
+							font-size: 10pt;
+							margin-top: 100px;
+							padding: 5px 0px 12px 0px;
+							text-decoration: none;
+							color: black;
+						}
+
+		.e{
+				background-image: url('potstickers.jpg');
+				background-size: cover;
+				background-repeat: no-repeat;
+				width:200px;
+				height: 200px;
+				margin-left: 190px;
+				margin-top:20px;
+				text-align: center;
+				float:left;
+				color:white;
+						}
+
+
+						.e a {
+							visibility: visible;
+							display: inline-block;
+							background-color: darkgrey;
+							width:200px;
+							font-size: 16pt;
+							padding: 5px 0px 10px 0px;
+							text-decoration: none;
+							color: white;
+
+						}
+
+						.e p{
+							visibility: hidden;
+						}
+
+								.e:hover p{
+									visibility: visible;
+									background-color: white;
+									width:200px;
+									font-size: 10pt;
+									margin-top: 100px;
+									padding: 5px 0px 12px 0px;
+									text-decoration: none;
+									color: black;
+								}
+		.f{
+			background-image: url('falafel.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+			width:200px;
+			height: 200px;
+			margin-left: 190px;
+			margin-top:20px;
+			text-align: center;
+			float:left;
+			color:white;
+		}
+
+		.f a {
+			visibility: visible;
+			display: inline-block;
+			background-color: darkgrey;
+			width:200px;
+			font-size: 16pt;
+			padding: 5px 0px 10px 0px;
+
+			text-decoration: none;
+			color: white;
+
+		}
+
+		.f p{
+			visibility: hidden;
+		}
+
+				.f:hover p{
+					visibility: visible;
+					background-color: white;
+					width:200px;
+					font-size: 10pt;
+					margin-top: 100px;
+					padding: 5px 0px 12px 0px;
+					text-decoration: none;
+					color: black;
+				}
+
+		#myInput {
+		    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+		    background-position: 10px 12px; /* Position the search icon */
+		    background-repeat: no-repeat; /* Do not repeat the icon image */
+		    width: 100%; /* Full-width */
+		    font-size: 16px; /* Increase font-size */
+		    padding: 12px 20px 12px 40px; /* Add some padding */
+		    border: 1px solid #ddd; /* Add a grey border */
+		    margin-bottom: 12px; /* Add some space below the input */
+		}
+
+		#myRecipes {
+		    /* Remove default list styling */
+		    list-style-type: none;
+		    padding: 0;
+		    margin: 0;
+		}
+
+		</style>
+		<a href="prototype1.html"> <h1>foodie</h1></a>
+<br>
+	<nav>
+<ul>
+	<li><a href="prototype1.html">  Home &nbsp; </a></li>
+	<li> <a href="reci1.html"> Recipes  &nbsp; </a></li>
+	<li> <a href ="ing.html">Ingredients &nbsp;</a></li>
+	<li> <a href="blog.html"> Blog &nbsp;  </a></li>
+</ul>
+</nav>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for recipes..">
+<section id="myRecipes">
+
+<div class="a">
+<a href="roulade.html"> Polish Roulade </a>
+<p>The roulade has a beautiful, spring green color. Made with spinach, cheese and cream...</p>
+</div>
+
+<div class="b">
+<a href="tacos.html"> Mexican BBQ Carnitas Tacos</a>
+<p>This recipe is a great way to use up leftover pulled pork from your weekend barbeque. It...</p>
+</div >
+
+<div class="c">
+<a href="ravioli.html"> Italian Ravioli alla Caprese</a>
+<p>Ravioli alla Caprese is a specialty from the Italian island of Capri... </p>
+</div>
+
+<div class="d">
+<a href="butterchicken.html"> Indian Butter Chicken</a>
+<p>A quick and easy recipe for Indian butter chicken, yielding a creamy orange sauce...</p>
+</div >
+<div class="e">
+<a href=""> Chinese Potstickers</a>
+</div>
+<div class="f">
+<a href="">Mediterranean Falafel</a>
+</div>
+<script  src="search.js"></script>
+
+</section>
+	</body>
+</html>
