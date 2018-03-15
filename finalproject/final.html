@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>foodie</title>
+		<link rel="stylesheet" href="w3.css">
 		  <link rel="stylesheet" href="styles.css">
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
@@ -23,34 +24,41 @@
 </nav>
 
 <div>
+	<!--
 <img class="mySlides" src="hu.jpg"  height="400" alt="pic1">
 <img class="mySlides" src="ju.jpg"  height="400" alt="pic2">
 <img class="mySlides" src="io.jpg"  height="400" alt="pic3">
-
-
-<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
-
+--->
+<div class="w3-content w3-section">
+  <img class="mySlides" src="hu.jpg" height="400" alt="a">
+  <img class="mySlides" src="ju.jpg"  height="400" alt="b">
+  <img class="mySlides" src="io.jpg"  height="400" alt="c">
+	<img class="mySlides" src="din.jpg"  height="400" alt="d">
+	<img class="mySlides" src="cook.jpg"  height="400" alt="e">
+	<img class="mySlides" src="berries.jpg"  height="400" alt="f">
+	<img class="mySlides" src="pasta.jpg"  height="400" alt="g">
+	<img class="mySlides" src="mac.jpg"  height="400" alt="h">
+	<img class="mySlides" src="dish.png"  height="400" alt="i">
+	<img class="mySlides" src="indi.jpg"  height="400" alt="j">
+</div>
 <script>
-var slideIndex = 1;
-showDivs(slideIndex);
+var myIndex = 0;
+carousel();
 
-function plusDivs(n) {
-    showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
+function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length} ;
     for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
+       x[i].style.display = "none";
     }
-    x[slideIndex-1].style.display = "block";
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 
 </script>
+
 </div>
 
 <footer id="footer">
