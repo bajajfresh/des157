@@ -7,7 +7,10 @@
 				<link rel="stylesheet" href="styles.css">
 
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
+	<script src='map.js'> </script>
 	</head>
 
 	<body>
@@ -21,8 +24,15 @@
 					  height: 70%;
 				 }
 
-ul{
-	text-align: center;
+h2{
+	font-size:28pt;
+	color: 	#FFFAFA;
+
+	font-family: 'Raleway';
+	padding: 9px;
+
+	background: linear-gradient(to top, rgba(145,219,219,.3), rgba(145,219,219,.9));
+
 }
 
 #list1 li{
@@ -34,31 +44,35 @@ ul{
 
 }
 
-#list1:first-child{
-	margin-left: 75px;
+#list1 li:first-child{
+	color:white !important;
 }
 
-#list2 li{
-	list-style-type: none;
-	font-size:20pt;
-	padding: 10px;
-	text-align: center;
-	text-decoration: none !important;
-	float: left;
 
+.buttons a
+  {
+  font-size: 18pt;
+
+	padding-bottom: 25px;
+	color:black;
+	padding-left: 3px;
+padding-bottom: 50px;
+  }
+.buttons a:hover
+  {
+  cursor:pointer;
+  font-size: 18pt;
+	color:	#a3a3a3;
+  }
+iframe {
+	padding:20px;
+	width: 60%;
 }
 
-iframe{
-	width: 100%;
-}
 
 
 		</style>
 
-
-		<script>
-
-</script>
 
 
 <a href="final.html"> <h1>foodie</h1></a>
@@ -73,33 +87,64 @@ iframe{
 </nav>
 
 
-<div>
-<ul id="list1">
-	<a href="reci1.html"><li> Anchovies  | </li></a>
-<a href="#"><li>Brown Butter | </li></a>
-<a href="#"><li>Cane Syrup | </li></a>
-<a href="#"><li>Pandanus Leaves |</li></a>
-<a href="#"><li>Coleslaw Dressing | </li></a>
-<a href="#"><li>Dill Pickles | </li></a>
-</ul>
+
+<!--	<a href="https://www.google.com/maps/embed/v1/place?key=AIzaSyCmgywgVd58XJPpq4ECCL32iLacPvHtldQ&q=Costco"><li id="a"> Anchovies  | </li></a>
+-->
+
+<div id="Menu0" style="display: block;"><iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCmgywgVd58XJPpq4ECCL32iLacPvHtldQ&q=davis" style="border:0px #ffffff none;" name="Frame" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="450px" allowfullscreen></iframe></div>
+
+<div id="Menu1" style="display: none;"><iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCmgywgVd58XJPpq4ECCL32iLacPvHtldQ&q=Costco" style="border:0px #ffffff none;" name="mypFrame" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="450px" allowfullscreen></iframe></div>
+
+<div id="Menu2" style="display: none;">	<iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCmgywgVd58XJPpq4ECCL32iLacPvHtldQ&q=target" style="border:0px #ffffff none;" name="mypFrame" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="450px" allowfullscreen></iframe></div>
+
+<div id="Menu3" style="display: none;"><iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCmgywgVd58XJPpq4ECCL32iLacPvHtldQ&q=savemart" style="border:0px #ffffff none;" name="mypFrame" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="450px" allowfullscreen></iframe></div>
+
+
+<div id="Menu4" style="display: none;"><iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCmgywgVd58XJPpq4ECCL32iLacPvHtldQ&q=safeway" style="border:0px #ffffff none;" name="mypFrame" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="450px" allowfullscreen></iframe></div>
+
+
+<div id="Menu5" style="display: none;"><iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCmgywgVd58XJPpq4ECCL32iLacPvHtldQ&q=traderjoes" style="border:0px #ffffff none;" name="mypFrame" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="450px" allowfullscreen></iframe></div>
+
+
+<div id="Menu6" style="display: none;"><iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCmgywgVd58XJPpq4ECCL32iLacPvHtldQ&q=belair" style="border:0px #ffffff none;" name="mypFrame" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="450px" allowfullscreen></iframe></div>
+
+
+<div id="Menu7" style="display: none;"><iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCmgywgVd58XJPpq4ECCL32iLacPvHtldQ&q=walmart" style="border:0px #ffffff none;" name="mypFrame" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="450px" allowfullscreen></iframe></div>
+
+<div id="Menu8" style="display: none;"><iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCmgywgVd58XJPpq4ECCL32iLacPvHtldQ&q=target" style="border:0px #ffffff none;" name="mypFrame" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="450px" allowfullscreen></iframe></div>
+
+<div id="Menu9" style="display: none;"><iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCmgywgVd58XJPpq4ECCL32iLacPvHtldQ&q=internationalfoodmarket" style="border:0px #ffffff none;" name="mypFrame" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="450px" allowfullscreen></iframe></div>
+
+<div id="Menu10" style="display: none;"><iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCmgywgVd58XJPpq4ECCL32iLacPvHtldQ&q=Davisfoodcoop" style="border:0px #ffffff none;" name="mypFrame" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="450px" allowfullscreen></iframe></div>
+
+<div id="Menu11" style="display: none;"><iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCmgywgVd58XJPpq4ECCL32iLacPvHtldQ&q=internationalfoodmarket" style="border:0px #ffffff none;" name="mypFrame" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="450px" allowfullscreen></iframe></div>
+
+<div id="Menu12" style="display: none;"><iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCmgywgVd58XJPpq4ECCL32iLacPvHtldQ&q=wesrlakemarket" style="border:0px #ffffff none;" name="mypFrame" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="450px" allowfullscreen></iframe></div>
+
+
+
+<div id="list1" class="buttons">
+	<!--<h2> &nbsp;&nbsp; &nbsp;&nbsp;"find your favorite ingredients"</h2>
+	<a href="#" id="try" onclick="myFunction();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LL</a>-->
+<br>
+<a href="#" onclick="toggleVisibility('Menu0');">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+  <a href="#" onclick="toggleVisibility('Menu1');">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Anchovies |</a>
+  <a href="#" onclick="toggleVisibility('Menu2');">Brown Butter |</a>
+  <a href="#" onclick="toggleVisibility('Menu3');">Cane Syrup |</a>
+  <a href="#" onclick="toggleVisibility('Menu4');">Pandanus Leaves |</a>
+	<a href="#" onclick="toggleVisibility('Menu5');">Coleslaw Dressing |</a>
+	<a href="#" onclick="toggleVisibility('Menu6');">Dill Pickles |</a>
+	<br>
+	<br>
+	<a href="#" onclick="toggleVisibility('Menu7');">&nbsp;Cheese Ricotta |</a>
+	<a href="#" onclick="toggleVisibility('Menu8');">Rotisserie Chicken |</a>
+	<a href="#" onclick="toggleVisibility('Menu9');">Ground Turmeric |</a>
+	<a href="#" onclick="toggleVisibility('Menu10');">Asian sesame oil |</a>
+	<a href="#" onclick="toggleVisibility('Menu11');">Garam Masala |</a>
+	<a href="#" onclick="toggleVisibility('Menu12');">Chickpea Flour</a>
+	<br>
+	<br>
 </div>
-
-
-<div>
-	<ul id="list2">
-<a href="#"><li>Milk Ricotta | </li></a>
-<a href="#"><li>Rotisserie Chicken | </li></a>
-<a href="#"><li>&nbsp;Ground Turmeric | </li></a>
-<a href="#"><li>Garam Masala | </li></a>
-<a href="#"><li>Asian sesame oil | </li></a>
-<a href="#"><li>Chickpea Flour </li></a>
-
-
-	</ul>
-</div>
-<iframe src="http://storage.googleapis.com/nandini2896-store-locator/map.html" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="450px" allowfullscreen></iframe>
-
-
 
 
 	</body>
